@@ -4,28 +4,15 @@
 	"loadout": "basicFoundation",
 	"startingItems": [
 		{"item": "copper", "amount": 300},
-		{"item": "lead", "amount": 200},
-		{"item": "graphite", "amount": 100}
+		{"item": "lead", "amount": 200}
 	],
 	"conditionWave": 10,
 	"launchPeriod": 10,
 	"requirements": [
 		{
 			"type": "ZoneWave",
-			"zone": "tarFields", 
-			"wave": 30
-		},
-		{
-			"type": "Unlock",
-			"block": "laser-drill"
-		},
-		{
-			"type": "Unlock",
-			"block": "turbine-generator"
-		},
-		{
-			"type": "Unlock",
-			"block": "dagger-factory"
+			"zone": "groundZero", 
+			"wave": 0
 		}
 	],
 	"resources": ["copper", "lead", "coal", "titanium", "sand"]
