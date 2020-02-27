@@ -1,0 +1,19 @@
+{
+	"name": "Valhalla",
+	"description": "You are sent to an abundent zone of resources. A good place to farm.",
+	"loadout": "basicFoundation",
+	"startingItems": [
+		{"item": "copper", "amount": 300},
+		{"item": "lead", "amount": 200}
+	],
+	"conditionWave": 10,
+	"launchPeriod": 10,
+	"requirements": [
+		{
+			"type": "ZoneWave",
+			"zone": "groundZero", 
+			"wave": 0
+		}
+	],
+	"resources": ["copper", "lead", "coal", "titanium", "sand"]
+}
